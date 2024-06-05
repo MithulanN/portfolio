@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mithulan</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/374e75c3ea.js" crossorigin="anonymous"></script>
+    <script defer src="portfolio.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Pfps.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Goals</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()""></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Hi, I'm</p>
+                <h1>Mithulan <span>Nanthakumar</span></h1>
+            </div>
+
+        </div>
+    </div>
+
+    <!------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/aboutme.jpg" alt="aboutme">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi my name is Mithulan Nanthakumar! I am a Grade 10 student at RHHS
+                        who has a great interest in both science and tech fields. I hope to make a positive
+                        difference at RHHS!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Languages</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br>Designing Web Interfaces</li>
+                            <li><span>Game Dev</span><br>Building 2D Games in Python</li>
+                            <li><span>Backend</span><br>Writing programs in Python, JavaScript, and PHP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2023 - Present</span><br>Head of Web Develop at CS Club</li>
+                            <li><span>2023 - 2024</span><br>Participated in 2 Hackathons with Web-Based projects</li>
+                            <li><span>2024</span><br>5th at Skills Canada National Competition for Web Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Front-End</span><br>HTML, CSS</li>
+                            <li><span>Back-End</span><br>JS, PHP, MySQL</li>
+                            <li><span>Other</span><br>Python, Java</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------service--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Goals</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StuCo Website</h2>
+                    <p>Create a Student Council Website that hosts places for resources and information.
+                        A space that is easy to access and is accessible for those with disabilities.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>StuCo App</h2>
+                    <p>Create an app that contains useful information for students like event information, dates, library status, etc. Well
+                        designed and represents the RHHS community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/schooldisplay.png" alt="School Display">
+                    <div class="layer">
+                        <h3>School Display</h3>
+                        <p>Automated display showing time, weather, events, schedules, and status that can be updated remotely.</p>
+                        <a href="https://github.com/gbehsuw/summative" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/pokedex.png" alt="PokeDex">
+                    <div class="layer">
+                        <h3>PokeDex</h3>
+                        <p>Pokedex with almost every pokemon that shows stats, abilities, entries, characteristics, and more!</p>
+                        <a href="https://github.com/gbehsuw/yrhacks" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/memorycard.png" alt="Career Website">
+                    <div class="layer">
+                        <h3>Memory Card Game</h3>
+                        <p>A memory card game that uses javascript to make it functional! Limits mistakes to 7 and you need 18 to win.</p>
+                        <a href="https://github.com/gbehsuw/memorycards" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/gbehsuw" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+
+    <!--------contanct--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> mithulan.nanthakumar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (437)-217-8928</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mithulan_nantha/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Mithulan Nanthakumar</p>
+        </div>
+    </div>
+
+</body>
+</html>
