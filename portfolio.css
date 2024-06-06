@@ -112,7 +112,7 @@ nav ul li a::hover::after {
     width: 100%;
     border-radius: 15px;
     object-fit: none;
-    object-position: 50% 10%;
+    object-position: 50% 12%;
     height: 450px;
 }
 
