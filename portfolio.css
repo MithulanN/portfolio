@@ -19,14 +19,14 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url('background.png');
+    background-image: url('./background.png');
     background-size: cover;
     background-position: center;
 }
 
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
 }
 
 .container {
