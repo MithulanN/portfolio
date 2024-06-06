@@ -387,7 +387,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(Images/wallpaperpfp.png);
+        background-image: url('./wallpaperpfp.png');
         object-fit: cover;
     }
 
