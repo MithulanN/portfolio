@@ -109,8 +109,8 @@ nav ul li a::hover::after {
 }
 
 .about-col-1 img {
-    width: auto;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 15px;
     object-fit: cover;
     object-position: center;
     height: 450px;
@@ -440,11 +440,6 @@ nav .fa-solid {
 
     .about-col-1 {
         margin-bottom: 30px;
-    }
-
-    .about-col-1 img {
-        object-fit: none;
-        object-position: 50% 10%;
     }
 
     .about-col-2 {
