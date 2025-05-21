@@ -111,8 +111,8 @@ nav ul li a::hover::after {
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
-    object-fit: none;
-    object-position: 50% 12%;
+    object-fit: cover;
+    object-position: center;
     height: 450px;
 }
 
